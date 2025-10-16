@@ -37,7 +37,7 @@
 }
 .container1 span{
     display: inline-block;
-    padding: 10px 0 0 20px;
+    padding: 10px 0 0 0px;
     
 }
 .key1{
@@ -121,7 +121,7 @@
 }
 .container3 span{
     display: inline-block;
-    padding: 10px 0 0 20px;
+    padding: 10px 0 0 0px;
     
 }
 .key3{
@@ -190,6 +190,7 @@ footer p{
     box-shadow: 2px 2px yellow;
     margin: 5px;
 }
+
 
 
 
