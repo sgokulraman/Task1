@@ -1,0 +1,192 @@
+*{
+    padding: 0%;
+    margin: 0px;
+}
+.main-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.container1 img{
+    width: 200px;
+    height: 150px;
+    display: block;
+}
+.container1{
+    background-color: wheat;
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 3px 2px rgb(202, 199, 199);
+    display: inline-block;
+
+}
+.container1 ul{
+    display: inline-block;
+    padding: 2px;;
+}
+.container1 ul input{
+    display: none;
+    
+}
+.container1 label{
+    color: gold;
+    display: inline-block;
+    
+}
+.container1 span{
+    display: inline-block;
+    padding: 10px 0 0 20px;
+    
+}
+.key1{
+    font-size: 15px;
+
+}
+
+/* Second box */
+
+
+
+
+.container2 img{
+    width: 200px;
+    height: 150px;
+    display: block;
+}
+.container2{
+    background-color: wheat;
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 3px 2px rgb(202, 199, 199);
+    display: inline-block;
+
+}
+.container2 ul{
+    display: inline-block;
+    padding: 2px;;
+}
+.container2 ul input{
+    display: none;
+    
+}
+.container2 label{
+    display: inline-block;
+    
+}
+.container2 span{
+    display: inline-block;
+    padding: 10px 0 0 20px;
+    
+}
+.key2{
+    font-size: 15px;
+
+}
+
+
+
+/* Third container */
+
+
+.container3 img{
+    width: 200px;
+    height: 150px;
+    display: block;
+}
+.container3{
+    background-color: wheat;
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 3px 2px rgb(202, 199, 199);
+    display: inline-block;
+
+}
+.container3 ul{
+    display: inline-block;
+    padding: 2px;;
+}
+.container3 ul input{
+    display: none;
+    
+}
+.container3 label{
+    display: inline-block;
+    
+}
+.container3 span{
+    display: inline-block;
+    padding: 10px 0 0 20px;
+    
+}
+.key3{
+    font-size: 15px;
+    word-spacing: 15px;
+
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding:2%;
+    margin-top: 100px;
+    justify-content: space-around;
+}
+
+footer p{
+    padding: 5px;
+    margin: 2px;
+}
+.footer1 span{
+    display:block;
+    padding:10px;
+    margin: 5px;
+    color: green;
+}
+
+
+.footer1{
+    padding: 10px;
+    display: inline-block;
+    margin:10px;
+}
+
+
+ .footer2 span{
+    display:block;
+    padding:5px;
+    margin: 5px;
+    color: green;
+}
+
+.footer2{
+    display: inline-block;
+    margin:10px;
+    padding: 10px;
+} 
+
+
+
+
+.footer3 a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    color: rgb(23, 231, 23);
+    background-color: rgb(39, 53, 18);
+    box-shadow: -2px 2px white;
+    border-radius: 10%;
+}
+.footer3 a:hover{
+    color:white;
+    background: black;
+    text-align: center;
+    box-shadow: 2px 2px yellow;
+    margin: 10px;
+}
