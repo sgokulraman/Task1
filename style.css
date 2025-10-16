@@ -14,7 +14,7 @@
 }
 .container1{
     background-color: wheat;
-    width: 200px;
+    width: 230px;
     margin: 20px;
     padding: 20px;
     border-radius: 20px;
@@ -37,7 +37,7 @@
 }
 .container1 span{
     display: inline-block;
-    padding: 10px 0 0 20px;
+    padding: 10px 0 0 7px;
     
 }
 .key1{
@@ -57,7 +57,7 @@
 }
 .container2{
     background-color: wheat;
-    width: 200px;
+    width: 230px;
     margin: 20px;
     padding: 20px;
     border-radius: 20px;
@@ -79,7 +79,7 @@
 }
 .container2 span{
     display: inline-block;
-    padding: 10px 0 0 20px;
+    padding: 10px 0 0 0px;
     
 }
 .key2{
@@ -99,7 +99,7 @@
 }
 .container3{
     background-color: wheat;
-    width: 200px;
+    width: 230px;
     margin: 20px;
     padding: 20px;
     border-radius: 20px;
@@ -121,7 +121,7 @@
 }
 .container3 span{
     display: inline-block;
-    padding: 10px 0 0 20px;
+    padding: 10px 0 0 10px;
     
 }
 .key3{
@@ -190,4 +190,5 @@ footer p{
     box-shadow: 2px 2px yellow;
     margin: 5px;
 }
+
 
