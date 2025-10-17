@@ -2,6 +2,118 @@
     padding: 0%;
     margin: 0px;
 }
+    h1{
+    text-shadow: 2px 2px black; font-family: Arial, Helvetica, sans-serif; color: rgb(188, 192, 196); text-align: center; justify-content: center; padding:20px; margin: 20px;
+}
+
+@media (max-width: 500px){
+    h1{
+        font-size: 2rem;
+    }
+    .main-container{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer{
+        font-size: 0.3rem;
+        display: block;
+        box-shadow: -5px -5px green;
+    }
+    div .container1 {
+        width: 200px;
+        box-shadow: 2px 2px yellow;
+
+    }
+    div .container2{
+        width: 200px;
+        box-shadow: 2px 2px yellow;
+    }
+    div .container3{
+        width: 200px;
+        box-shadow: 2px 2px yellow;
+    }
+}
+@media (min-width: 500px){
+    body{
+        background: #000;
+    }
+    h1{
+        font-size: 2.2rem;
+        text-shadow: 2px 2px red;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+    .main-container{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    footer{
+        font-size: 0.7rem;
+    }
+    div .container1 {
+        width: 250px;
+        box-shadow: 2px 2px red;
+    }
+    div .container2{
+        width: 250px;
+        box-shadow: 2px 2px red;
+    }
+    div .container3{
+        width: 250px;
+        box-shadow: 2px 2px red;
+    }
+}
+@media (min-width: 850px){
+    body{
+        background: rgb(152, 141, 141);
+    }
+    body a img{
+        border-radius: 90%;
+    }
+    h1{
+        font-size: 2.2rem;
+        text-shadow: 2px 2px black;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+    .main-container{
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    footer{
+        font-size: 1rem;
+        box-shadow: none;
+    }
+    div .container1 {
+        width: 250px;
+        box-shadow: 2px 2px black;
+        background:rgb(215, 215, 179);
+        color: rgb(8, 5, 5);
+    }
+    div .container2{
+        width: 250px;
+        box-shadow: 2px 2px black;
+        background:rgb(215, 215, 179);
+        color: rgb(8, 5, 5);
+    }
+    div .container3{
+        width: 250px;
+        box-shadow: 2px 2px black;
+        background:rgb(215, 215, 179);
+        color: rgb(8, 5, 5);
+    }
+}
+
 .main-container{
     display: flex;
     justify-content: space-around;
@@ -190,6 +302,7 @@ footer p{
     box-shadow: 2px 2px yellow;
     margin: 5px;
 }
+
 
 
 
